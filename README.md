@@ -69,26 +69,29 @@ steganography-c/
 
 ├── main.c         - handles user input and controls overall execution flow
 
-├── encode.c       -Implements encoding logic to hide secret data inside the image
-├── decode.c       
-├── header.h   
-├── common.h
+├── encode.c       - Implements encoding logic to hide secret data inside the image
+
+├── decode.c       - Implements decoding logic to extract hidden data from the image
+
+├── header.h       - Contains function declarations
+
+├── common.h       - Defines common macros, constants, and shared utilities
 
 
-├── types.h
-
-│
-
-├── beautiful.bmp 
-
-├── stego.bmp
-
-├── output.bmp     
+├── types.h        - Contains structure definitions and data types
 
 │
 
-├── secret.txt     
+├── beautiful.bmp  - Original input image
+
+├── stego.bmp      - Intermediate output image with secret data
+
+├── output.bmp     - Final processed image
 
 │
 
-└── README.md       
+├── secret.txt     - File containing the secret message  
+
+│
+
+└── README.md      - Project documentation and usage instructions  
