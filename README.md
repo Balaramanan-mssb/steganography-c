@@ -65,14 +65,17 @@ Project Structure:
 
 steganography-c/
 │
-├── main.c          # Entry point – handles user input and flow control
-├── encode.c        # Contains logic to hide secret data into file
-├── decode.c        # Contains logic to extract hidden data
-├── header.h        # Function declarations, macros, structures
+├── main.c         
+├── encode.c        
+├── decode.c       
+├── header.h   
+├── common.h
+├── types.h
 │
-├── beautiful.bmp  # Input carrier file (example image)
-├── output.bmp      # Output file with hidden data
+├── beautiful.bmp 
+├── stego.bmp
+├── output.bmp     
 │
-├── secret.txt      # File containing secret message (optional)
+├── secret.txt     
 │
-└── README.md       # Project documentation
+└── README.md       
