@@ -18,9 +18,14 @@ opens them in appropriate modes, checks image capacity, copies
 the BMP header unchanged, and encodes a magic string followed by
 the secret file extension size, extension, file size, and file
 contents into the image pixels.
+
 Decode:
+       During decoding, the program reads the stego image, verifies the
+       magic string, extracts the hidden file information, and
+       reconstructs the original secret file.
        
 - Bit manipulation techniques are used to store and retrieve data
+- This project ensures secure and accurate data hiding and retrieval using simple bit manipulation techniques.
 
 Features:
 - Encode secret message into a carrier file  
@@ -38,3 +43,13 @@ How to Run:
 
 1. Compile the program
 gcc main.c encode.c decode.c
+2. Run Encoding
+./a.out -e beautiful.bmp output.bmp "secret.txt"
+3. Run Decoding
+./a.out -d output.bmp
+
+Project Structure
+main.c → Main control logic
+encode.c → Handles encoding process
+decode.c → Handles decoding process
+header.h → Function declarations and structures
