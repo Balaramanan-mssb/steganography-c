@@ -68,7 +68,8 @@ steganography-c/
 │
 
 ├── main.c         - handles user input and controls overall execution flow
-├── encode.c        
+
+├── encode.c       -Implements encoding logic to hide secret data inside the image
 ├── decode.c       
 ├── header.h   
 ├── common.h
