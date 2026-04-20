@@ -66,6 +66,7 @@ Project Structure:
 steganography-c/
 
 │
+
 ├── main.c         
 ├── encode.c        
 ├── decode.c       
