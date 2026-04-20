@@ -9,8 +9,17 @@ Method of Approach:
 This project is developed using C programming and file handling concepts. The core idea is to embed secret data into a carrier file (such as an image or text file) by modifying its data at the byte/bit level.
 
 Process Involved:
-- Encoding: Secret message is hidden inside the file
-- Decoding: Hidden message is extracted from the file
+Encode:
+       The secret data is first validated and then hidden inside the
+least significant bits (LSBs) of the cover image pixels. The BMP
+image format is used because it allows precise manipulation of
+pixel data. During encoding, the program validates input files,
+opens them in appropriate modes, checks image capacity, copies
+the BMP header unchanged, and encodes a magic string followed by
+the secret file extension size, extension, file size, and file
+contents into the image pixels.
+Decode:
+       
 - Bit manipulation techniques are used to store and retrieve data
 
 Features:
