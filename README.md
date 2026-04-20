@@ -100,9 +100,11 @@ Sample Output:
 Encoding:
 
 Encoding successful!
+
 Secret data hidden in file
 
 Decoding:
 
 Decoding successful!
+
 Hidden message: Hello World
