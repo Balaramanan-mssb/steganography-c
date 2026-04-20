@@ -108,3 +108,11 @@ Decoding:
 Decoding successful!
 
 Hidden message: Hello World
+
+Key Concepts Used:
+
+File I/O operations
+
+Bit-level data manipulation
+
+Data hiding techniques
