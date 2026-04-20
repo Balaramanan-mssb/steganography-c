@@ -50,10 +50,15 @@ Technologies Used
 How to Run:
 
 1. Compile the program
+   
 gcc main.c encode.c decode.c
+
 2. Run Encoding
+   
 ./a.out -e beautiful.bmp output.bmp "secret.txt"
+
 3. Run Decoding
+   
 ./a.out -d output.bmp
 
 Project Structure
