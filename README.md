@@ -75,6 +75,7 @@ steganography-c/
 
 
 ├── types.h
+
 │
 
 ├── beautiful.bmp 
