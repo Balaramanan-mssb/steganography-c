@@ -82,7 +82,10 @@ steganography-c/
 ├── stego.bmp
 
 ├── output.bmp     
+
 │
+
 ├── secret.txt     
+
 │
 └── README.md       
