@@ -62,7 +62,16 @@ gcc main.c encode.c decode.c
 ./a.out -d output.bmp
 
 Project Structure
-main.c → Main control logic
-encode.c → Handles encoding process
-decode.c → Handles decoding process
-header.h → Function declarations and structures
+steganography-c/
+│
+├── main.c          # Entry point – handles user input and flow control
+├── encode.c        # Contains logic to hide secret data into file
+├── decode.c        # Contains logic to extract hidden data
+├── header.h        # Function declarations, macros, structures
+│
+├── beautiful.bmp  # Input carrier file (example image)
+├── output.bmp      # Output file with hidden data
+│
+├── secret.txt      # File containing secret message (optional)
+│
+└── README.md       # Project documentation
