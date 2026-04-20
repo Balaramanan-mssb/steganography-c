@@ -94,4 +94,15 @@ steganography-c/
 
 │
 
-└── README.md      - Project documentation and usage instructions  
+└── README.md      - Project documentation and usage instructions 
+
+Sample Output:
+Encoding:
+
+Encoding successful!
+Secret data hidden in file
+
+Decoding:
+
+Decoding successful!
+Hidden message: Hello World
