@@ -72,10 +72,15 @@ steganography-c/
 ├── decode.c       
 ├── header.h   
 ├── common.h
+
+
 ├── types.h
 │
+
 ├── beautiful.bmp 
+
 ├── stego.bmp
+
 ├── output.bmp     
 │
 ├── secret.txt     
