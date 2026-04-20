@@ -67,7 +67,7 @@ steganography-c/
 
 │
 
-├── main.c         
+├── main.c         - handles user input and controls overall execution flow
 ├── encode.c        
 ├── decode.c       
 ├── header.h   
